@@ -1,16 +1,80 @@
-# React + Vite
+🚀 About the Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is designed as an exercise to practice state management in React using useState.
+The counter component showcases three core actions:
 
-Currently, two official plugins are available:
+Increment ➕
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Decrement ➖
 
-## React Compiler
+Reset 🔄
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+All buttons are implemented as a separate reusable Button component, demonstrating component reusability, props passing, and clean code practices.
 
-## Expanding the ESLint configuration
+🧠 What You Will Learn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+How to initialize and update state using useState
+
+Handling user interactions and events
+
+Creating reusable components (Button)
+
+Passing props between components
+
+Component structure and clean code patterns
+
+Basic UI logic flow in React
+
+
+📁 Project Structure
+useStateExercise/
+│── src/
+│   │── components/
+│   │   │── Counter.jsx
+│   │   │── Button.jsx
+│   │── App.jsx
+│   │── index.css 
+│   │── main.jsx
+│── public/
+│── package.json
+└── README.md
+
+
+⚙️ Installation & Setup
+  1. Clone the repository:
+  git clone https://github.com/YourUsername/useStateExercise.git
+  2. Navigate into the project:
+  cd useStateExercise
+  3. Install dependencies:
+  npm install
+  4. Start the development server:
+  npm run dev
+
+🖥️ Preview
+The app displays a counter with three buttons implemented via the Button component:
+Increase
+Decrease
+Reset
+The state updates instantly and reflects user interaction in real time. Props are passed from the Counter to Button components to handle different actions.
+
+
+🧩 Tech Stack
+1.React
+2.HTML & CSS
+3.Tailwind CSS
+4.Vite
+
+🌟 Why This Project Matters
+1.Even though it’s small, it demonstrates:
+2.Solid understanding of core React concepts
+3.Passing props between components
+4.Reusable component creation
+5.Managing interactive UI
+6.Clean and readable component logic
+7.Using Tailwind CSS for styling
+8.Perfect for showing your React fundamentals to recruiters or mentors.
+
+
+📬 Contact
+
+Check out more of my work or collaborate via GitHub!
